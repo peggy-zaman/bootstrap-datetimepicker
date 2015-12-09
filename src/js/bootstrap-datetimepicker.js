@@ -84,14 +84,9 @@
                     clsName: 'years',
                     navFnc: 'y',
                     navStep: 10
-                },
-                {
-                    clsName: 'decades',
-                    navFnc: 'y',
-                    navStep: 100
                 }
             ],
-            viewModes = ['days', 'months', 'years', 'decades'],
+            viewModes = ['days', 'months', 'years'],
             verticalModes = ['top', 'bottom', 'auto'],
             horizontalModes = ['left', 'right', 'auto'],
             toolbarPlacements = ['default', 'top', 'bottom'],
